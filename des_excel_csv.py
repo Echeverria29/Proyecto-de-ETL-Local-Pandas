@@ -37,7 +37,7 @@ file_name1 = "colectivos.xlsx"
 file_name2 = "metro.xlsx"
 
 # Verificar si el directorio existe, si no, crearlo
-folder_path = r'C:\Users\josue\Desktop\descarga datos\csv y excel descargados\colectivosymetro'
+folder_path = r'TU_URL'
 if not path.exists(folder_path):
     makedirs(folder_path)
 
