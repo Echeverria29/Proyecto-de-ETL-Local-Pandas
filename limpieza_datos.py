@@ -8,7 +8,7 @@ folder_path2 = r'C:\Users\josue\Desktop\descarga datos\csv y excel descargados\w
 folder_path3 = r'C:\Users\josue\Desktop\descarga datos\csv y excel descargados\colectivosymetro'
 
 # Carpeta donde se guardarán los archivos limpios
-output_folder = r'C:\Users\josue\Desktop\descarga datos\csv y excel limpios\limpios'
+output_folder = r'TU_URL'
 
 # Función para limpiar y guardar archivos CSV o Excel como CSV
 def clean_and_save(file_path, output_folder):
