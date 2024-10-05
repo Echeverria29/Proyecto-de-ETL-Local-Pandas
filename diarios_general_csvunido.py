@@ -56,7 +56,7 @@ def obtener_datos(url):
 
 try:
     escritorio = path.expanduser("~")  # Ruta al directorio de escritorio del usuario actual
-    folder_path = r'C:\Users\josue\Desktop\descarga datos\csv y excel descargados\paraderos'
+    folder_path = r'TU_URL'
     archivo_salida = path.join(folder_path, "all_recorridos.csv")  # Ruta completa al archivo de salida
 
     headers = ["id", "cod", "pos_latitud", "pos_longitud", "name", "comuna", "servicio_id", "servicio_cod", "destino", "horarios"]
