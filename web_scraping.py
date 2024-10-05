@@ -26,7 +26,7 @@ def function_data3_local():
     zip_response.raise_for_status()  # Asegurarse de que la solicitud fue exitosa
 
     # Directorio donde se guardarán los archivos descargados y descomprimidos
-    output_dir = r"C:\Users\josue\Desktop\descarga datos\csv y excel descargados\webscraping"
+    output_dir = r"TU_URL"
     os.makedirs(output_dir, exist_ok=True)
 
     # Guardar el archivo ZIP descargado
