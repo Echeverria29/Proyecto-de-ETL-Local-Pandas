@@ -3,9 +3,9 @@ import os
 from glob import glob
 
 # Rutas de las carpetas donde se encuentran los archivos CSV y Excel
-folder_path1 = r'C:\Users\josue\Desktop\descarga datos\csv y excel descargados\paraderos'
-folder_path2 = r'C:\Users\josue\Desktop\descarga datos\csv y excel descargados\webscraping'
-folder_path3 = r'C:\Users\josue\Desktop\descarga datos\csv y excel descargados\colectivosymetro'
+folder_path1 = r'TU_URL'
+folder_path2 = r'TU_URL'
+folder_path3 = r'TU_URL'
 
 # Carpeta donde se guardarán los archivos limpios
 output_folder = r'TU_URL'
