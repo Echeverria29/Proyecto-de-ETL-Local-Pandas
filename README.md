@@ -1,6 +1,6 @@
 # Proyecto de ETL Local Pandas
 Este proyecto tiene como objetivo principal descargar, transformar y limpiar datos desde diversas fuentes web, guardarlos localmente en archivos CSV, y procesarlos utilizando Pandas para realizar análisis y preparar los datos para usos posteriores.
-
+![](https://github.com/Echeverria29/Proyecto-de-ETL-Local-Pandas/blob/main/1_UUiMc7cdMV0YT9T8zcxgEQ.jpg)
 # Descripción del Proyecto 🚀
 El proyecto consiste en descargar archivos desde fuentes externas (APIs y páginas web), realizar transformaciones sobre los datos, y guardarlos en formato CSV en el escritorio local. Además, se ejecuta un proceso de limpieza de datos eliminando duplicados y valores nulos para preparar los archivos para su análisis posterior.
 
