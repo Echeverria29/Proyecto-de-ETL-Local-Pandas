@@ -13,6 +13,7 @@ CSV y Excel: Como formatos principales de entrada y salida.
 Archivos de Código
 Función: download_and_save_as_csv
 Esta función descarga archivos Excel desde una URL y los convierte a formato CSV, guardando el archivo CSV en la carpeta especificada. Posteriormente elimina el archivo Excel original para ahorrar espacio en el disco.
+![](https://github.com/Echeverria29/ETLSQL-Server-SSIS-y-SSMS-/blob/main/imagesETL/kentorigin.JPG)
 # Pre-requisitos 📋
 Python 3.x: Para ejecutar el código y utilizar las bibliotecas.
 Pandas: Biblioteca principal para manipulación de datos.
