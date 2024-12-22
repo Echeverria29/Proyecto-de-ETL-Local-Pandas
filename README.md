@@ -1,42 +1,66 @@
-# Proyecto de ETL Local Pandas
-Este proyecto tiene como objetivo principal descargar, transformar y limpiar datos desde diversas fuentes web, guardarlos localmente en archivos CSV, y procesarlos utilizando Pandas para realizar análisis y preparar los datos para usos posteriores.
-![](https://github.com/Echeverria29/Proyecto-de-ETL-Local-Pandas/blob/main/1_UUiMc7cdMV0YT9T8zcxgEQ.jpg)
-# Descripción del Proyecto 🚀
-El proyecto consiste en descargar archivos desde fuentes externas (APIs y páginas web), realizar transformaciones sobre los datos, y guardarlos en formato CSV en el escritorio local. Además, se ejecuta un proceso de limpieza de datos eliminando duplicados y valores nulos para preparar los archivos para su análisis posterior.
+# Proyecto de Descarga, Transformación y Limpieza de Datos
 
-# Arquitectura de la Solución 🏗️
-Pandas: Utilizado para procesar y limpiar los datos.
-Requests: Para descargar los archivos desde fuentes web.
-BeautifulSoup: Para extraer enlaces de descarga desde una página web.
-OS y glob: Para manejo de archivos y carpetas locales.
-CSV y Excel: Como formatos principales de entrada y salida.
-Archivos de Código
-Función: download_and_save_as_csv
-Esta función descarga archivos Excel desde una URL y los convierte a formato CSV, guardando el archivo CSV en la carpeta especificada. Posteriormente elimina el archivo Excel original para ahorrar espacio en el disco.
-![](https://github.com/Echeverria29/Proyecto-de-ETL-Local-Pandas/blob/main/Aquitectura3.drawio.png)
-# Pre-requisitos 📋
-Python 3.x: Para ejecutar el código y utilizar las bibliotecas.
-Pandas: Biblioteca principal para manipulación de datos.
-Requests: Para manejar las solicitudes HTTP.
-BeautifulSoup: Para hacer scraping de páginas web.
-OS y glob: Para manejo de archivos locales.
-# Instalación 🔧
-Asegúrate de tener instaladas las bibliotecas necesarias con el siguiente comando:
-bash
-Copiar código
-pip install pandas requests beautifulsoup4
-Configura las rutas locales donde se descargarán y guardarán los archivos CSV y Excel.
-# Ejecución del Proyecto ⚙️
-Descargar y Convertir: Ejecuta la función download_and_save_as_csv para descargar archivos Excel y guardarlos como CSV.
-Procesar APIs: Ejecuta obtener_datos para consultar APIs y almacenar los datos en formato CSV.
-Web Scraping: Ejecuta function_data3_local para extraer archivos ZIP desde la web, descomprimirlos y convertirlos.
-Limpieza de Datos: Ejecuta clean_and_save para eliminar duplicados y filas con valores nulos de los archivos.
-# Construido con 🛠️
-Pandas - Para manipulación y limpieza de datos.
-Requests - Para realizar solicitudes HTTP.
-BeautifulSoup - Para hacer scraping de enlaces en páginas web.
-OS y glob - Para manejo de archivos y directorios locales.
-# Autor ✒️
-Orlando Echeverría Hernández
-Expresiones de Gratitud 🎁
-Comparte este proyecto con otros.
+Este proyecto tiene como objetivo descargar archivos desde fuentes externas (APIs y páginas web), realizar transformaciones sobre los datos y guardarlos en formato CSV en el escritorio local. Además, se ejecuta un proceso de limpieza de datos eliminando duplicados y valores nulos para preparar los archivos para su análisis posterior.
+
+## Contenido
+- [Requisitos](#requisitos)
+- [Estructura del Proyecto](#estructura-del-proyecto)
+- [Instrucciones de Ejecución](#instrucciones-de-ejecución)
+
+---
+
+## Requisitos
+
+Para ejecutar este proyecto de manera local, asegúrate de tener instalados los siguientes paquetes:
+
+- **pandas**: Para manipulación y limpieza de datos  
+- **requests**: Para realizar solicitudes HTTP  
+- **beautifulsoup4**: Para hacer scraping en páginas web  
+- **os y glob**: Para manejo de archivos y carpetas locales  
+
+Instala todas las dependencias con:
+
+$ pip install -r requirements.txt
+
+## Estructura del Proyecto
+El proyecto está organizado de la siguiente manera:
+
+- **arquitecture/**
+    Arquitecura del proyecto:
+    - `Arquitectura3.drawio.png` 
+
+- **data/**
+    Archivos relacionados con datasets:
+    - `csv y excel descargados.rar` 
+    - `csv y excel limpios.rar` 
+
+- **images/**
+    Imagenes del proyecto:
+    - `1_UUiMc7cdMV0YT9T8zcxgEQ.jpg` 
+    
+- **scripts/**  
+  Scripts Python del proyecto:  
+  - `des_excel_csv.py` - Descargar y Convertir Archivos  
+  - `diarios_general_csvunido.py` - Procesar APIs  
+  - `web_scraping.py` - Web Scraping  
+  - `limpieza_datos.py` -  Limpieza de Datos 
+
+
+
+## Instrucciones de Ejecución
+
+## Descargar y Convertir Archivos
+Ejecuta el script des_excel_csv.py para descargar archivos Excel desde una URL, convertirlos a CSV y guardarlos en la carpeta especificada:
+python scripts/des_excel_csv.py
+
+## Procesar APIs
+Ejecuta el script para consultar datos desde APIs y almacenarlos en formato CSV:
+python scripts/diarios_general_csvunido.py
+
+## Web Scraping
+Ejecuta web_scraping.py para descargar archivos ZIP desde una página web y convertirlos a CSV:
+python scripts/web_scraping.py
+
+## Limpieza de Datos
+Limpia los archivos CSV eliminando duplicados y filas con valores nulos con el siguiente comando:
+python scripts/limpieza_datos.py
