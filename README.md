@@ -1,6 +1,7 @@
 # Proyecto de Descarga, Transformación y Limpieza de Datos
 
 Este proyecto tiene como objetivo descargar archivos desde fuentes externas (APIs y páginas web), realizar transformaciones sobre los datos y guardarlos en formato CSV en el escritorio local. Además, se ejecuta un proceso de limpieza de datos eliminando duplicados y valores nulos para preparar los archivos para su análisis posterior.
+![](https://github.com/Echeverria29/Proyecto-de-ETL-Local-Pandas/blob/main/images/1_UUiMc7cdMV0YT9T8zcxgEQ.jpg)
 
 ## Contenido
 - [Requisitos](#requisitos)
