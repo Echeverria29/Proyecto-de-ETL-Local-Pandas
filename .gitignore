@@ -15,7 +15,4 @@ build/
 *.egg-info/
 data
 analysis_report.docx
-/Lib
-/env
 env/
-Lib/
