@@ -19,7 +19,7 @@ Para ejecutar este proyecto de manera local, asegúrate de tener instalados los 
 - **beautifulsoup4**: Para hacer scraping en páginas web  
 - **os y glob**: Para manejo de archivos y carpetas locales  
 
-Instala todas las dependencias con:
+Instala todas las dependencias con :
 
 $ pip install -r requirements.txt
 
